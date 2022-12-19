@@ -1,0 +1,34 @@
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    background-color: #8a76b8;
+    /* background-color: #6E60A0; */
+}
+.input input{
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+.input input::placeholder{
+    font-size: 18px;
+}
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.addIcons{
+    height: 24px;
+    width: 24px;
+}
+.addImgIcon{
+    padding-top: 10px;
+    cursor: pointer;
+}

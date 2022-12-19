@@ -1,0 +1,18 @@
+.home{
+    background: #667eea;
+    background: -webkit-linear-gradient(to right, rgba(102, 126, 234, 0.85), rgba(118, 75, 162, 0.95));
+    background: linear-gradient(to right, rgba(102, 126, 234, 0.95), rgba(118, 75, 162, 0.95));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    overflow: hidden;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+} 

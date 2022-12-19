@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;600&family=Spectral:wght@400&family=Work+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+.navbar{
+     background-color: #450364;
+     display: flex;
+     align-items: center;
+     padding: 10px; 
+     height: 50px;
+     justify-content: space-between;
+     /* color: #615674; */
+     color: #ddddf7;
+}
+.logo{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.user img{
+    background-color: #ddddf7;
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.button{
+    background-color: #7a5bb9;
+    font-family: 'Spectral', serif;
+    border:none;
+    color: #40005d;
+    padding: 2px 4px;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+}
+.button:hover{
+    background-color: #694ba6;
+}

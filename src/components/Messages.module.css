@@ -1,0 +1,9 @@
+.messages{
+    padding: 10px;
+    /* background-color: #ddddf7; */
+    height: 370px;
+    overflow:scroll;
+    overflow-x: hidden;
+    background-color: rgb(91, 84, 148);
+    background-image: linear-gradient(to right, #845ec2, #7e55c4, #784bc5, #7141c7, #6a37c8);
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;600&family=Spectral:wght@400&family=Work+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+ .form-container{
+    background: #667eea;
+    background: -webkit-linear-gradient(to right, rgba(102, 126, 234, 0.85), rgba(118, 75, 162, 0.95));
+    background: linear-gradient(to right, rgba(102, 126, 234, 0.95), rgba(118, 75, 162, 0.95));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .form-wrapper{
+    background-color: #fff;
+    padding: 1.5rem 4rem;
+    border-radius: 10px;
+    text-align: center;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+ }
+ .logo{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #667eea; */
+    color: #8e82a9;
+ }
+ .title{
+    font-family: 'Spectral', serif;
+    color: #8e82a9;
+ }
+ input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #b2a5cb;
+    outline: none;
+    line-height: 1;
+    color: #574f68;
+    font-family: 'Heebo', sans-serif;
+ }
+input::placeholder{
+    color: rgb(175,175,175);
+}
+.button{
+    background-color: #7a5bb9 ;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+}
+p{
+    color: #8e82a9;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+label{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: #9f94b8 ;
+    font-size: 12px;
+    cursor: pointer;
+}
+.addImg{
+    height: 32px;
+    border-radius: 12px;
+}

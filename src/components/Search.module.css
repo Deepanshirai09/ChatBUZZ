@@ -1,0 +1,33 @@
+.search{
+    border-bottom: 1px solid gray;
+}
+.searchForm{
+   padding: 10px;
+}
+.searchForm input{
+    background-color: transparent;
+    color: #ddddf7;
+    border: none;
+    width: 90%;
+}
+.userChat{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #ddddf7;
+    gap: 10px;
+    cursor: pointer;
+}
+.userchatInfo{
+    color: white;
+}
+.userChat:hover{
+    background-color: #694ba6;
+    
+}
+.userImg{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
